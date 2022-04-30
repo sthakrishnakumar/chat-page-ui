@@ -23,6 +23,7 @@ class Home extends StatelessWidget {
       body: const CustomScrollView(
         shrinkWrap: true,
         slivers: [
+          Text('This is for the backward date commit'),
           ChatPage(),
         ],
       ),
