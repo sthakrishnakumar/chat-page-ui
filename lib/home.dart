@@ -7,6 +7,7 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.green,
       appBar: AppBar(
         title: const Text(
           'Chat Page',
@@ -21,7 +22,9 @@ class Home extends StatelessWidget {
       ),
       body: const CustomScrollView(
         shrinkWrap: true,
-        slivers: [ChatPage()],
+        slivers: [
+          ChatPage(),
+        ],
       ),
     );
   }
