@@ -10,7 +10,7 @@ class Home extends StatelessWidget {
       backgroundColor: Colors.green,
       appBar: AppBar(
         title: const Text(
-          'Chat Page UI New',
+          'Chat Page',
           style: TextStyle(
             fontSize: 16,
             color: Colors.black,
